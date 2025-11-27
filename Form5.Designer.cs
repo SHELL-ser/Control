@@ -56,12 +56,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(268, 145);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(151, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 33);
+            this.label2.Size = new System.Drawing.Size(265, 24);
             this.label2.TabIndex = 8;
-            this.label2.Text = "1";
+            this.label2.Text = "Имяимя, ваша оценка: число";
             // 
             // Form5
             // 

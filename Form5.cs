@@ -12,9 +12,13 @@ namespace Control
 {
     public partial class Form5 : Form
     {
-        public Form5()
+        Student s = new Student();
+        public Form5(Student student)
         {
             InitializeComponent();
+            this.s = student;
+
+            label2.Text = s.name + ", ваша оценка: " + Convert.ToString(s.ball);
         }
     }
 }
