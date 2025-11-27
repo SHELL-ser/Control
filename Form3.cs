@@ -18,5 +18,15 @@ namespace Control
             InitializeComponent();
             this.s = student;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true) s.ball += 1;
+            if (checkBox2.Checked == true) s.ball += 1;
+            if (checkBox3.Checked == true) s.ball += 1;
+
+            Form4 f = new Form4(s);
+            f.ShowDialog();
+        }
     }
 }
