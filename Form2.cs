@@ -18,5 +18,13 @@ namespace Control
             InitializeComponent();
             this.s = student;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            s.ball = 0;
+            if (radioButton3.Checked == true) s.ball = 1;
+            Form3 f = new Form3(s);
+            f.ShowDialog();
+        }
     }
 }

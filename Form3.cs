@@ -12,9 +12,11 @@ namespace Control
 {
     public partial class Form3 : Form
     {
-        public Form3()
+        Student s = new Student();
+        public Form3(Student student)
         {
             InitializeComponent();
+            this.s = student;
         }
     }
 }
