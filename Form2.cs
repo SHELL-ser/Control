@@ -25,6 +25,7 @@ namespace Control
             if (radioButton3.Checked == true) s.ball = 1;
             Form3 f = new Form3(s);
             f.ShowDialog();
+            this.Hide();
         }
     }
 }

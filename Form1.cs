@@ -25,6 +25,7 @@ namespace Control
             student.day = DateTime.Today;
             Form2 f = new Form2(student);
             f.ShowDialog();
+            this.Hide();
         }
     }
 }

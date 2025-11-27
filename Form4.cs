@@ -25,6 +25,7 @@ namespace Control
 
             Form5 f = new Form5(s);
             f.ShowDialog();
+            this.Hide();
         }
     }
 }

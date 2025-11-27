@@ -27,6 +27,7 @@ namespace Control
 
             Form4 f = new Form4(s);
             f.ShowDialog();
+            this.Hide();
         }
     }
 }
