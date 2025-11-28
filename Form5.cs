@@ -31,7 +31,9 @@ namespace Control
                 writer.WriteLine(s.day.ToShortDateString());
                 writer.Close();
             }
-            Application.Exit();
+            Form1 f = new Form1();
+            f.Show();
+            this.Close();
         }
     }
 }

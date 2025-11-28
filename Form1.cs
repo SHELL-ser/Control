@@ -36,5 +36,10 @@ namespace Control
             Form6 f = new Form6();
             f.ShowDialog();
         }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
